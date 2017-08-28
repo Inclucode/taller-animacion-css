@@ -94,14 +94,14 @@ Sirve para hacer aparecer o desaparecer
 
 ```css
 @keyframes esconder {
-            0% {
-                opacity:1;
-            }
+    0% {
+        opacity:1;
+    }
 
-            100% {
-                opacity:0;
-            }
-        }
+    100% {
+        opacity:0;
+    }
+}
 
 .efecto-esconder {
     animation: esconder 2s;
@@ -127,15 +127,15 @@ A veces queremos repetir la animación por siempre
 ```css
 @keyframes mover-desaparecer {
 
-            0% {
-                opacity:1;
-            }
+    0% {
+        opacity:1;
+    }
 
-            100% {
-                opacity:0;
-                transform: translateX(200px);
-            }
-        }
+    100% {
+        opacity:0;
+        transform: translateX(200px);
+    }
+}
 
 .efecto-salida {
     animation: mover-desaparecer 2s;
@@ -166,22 +166,22 @@ A veces queremos repetir la animación por siempre
 
 ```css
  @keyframes efecto2 {
-            0%{
+    0%{
 
-                transform: rotate(0);
-                background-color: yellow;
-                
-            }
-            50% {
-                background-color: green;
-                
-            }
-            100% {
-                /* Volver*/
-                transform: rotate(360deg);
-                background-color: blueviolet;
-            }
-        }
+        transform: rotate(0);
+        background-color: yellow;
+
+    }
+    50% {
+        background-color: green;
+
+    }
+    100% {
+        /* Volver*/
+        transform: rotate(360deg);
+        background-color: blueviolet;
+    }
+}
 ```
 
 ![](animar-rotar-color.gif)
